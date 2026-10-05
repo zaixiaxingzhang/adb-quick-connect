@@ -8,5 +8,5 @@ devices.json
 # 本地工具目录
 .zwork/
 
-# 打包产物（用 打包.py 或手动压缩生成，不入库）
+# 发行包（GitHub Releases 用的 zip，不入库）
 *.zip
