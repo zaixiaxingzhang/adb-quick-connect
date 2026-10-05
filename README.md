@@ -4,7 +4,7 @@
 
 电脑自动生成**二维码 + 配对码**，手机扫一下就完成配对并自动连接；启动时后台静默扫描已配对过的设备直接连上，配对 / 连接 / 断开 / 装 APK 一条龙，全程一条 adb 命令都能看见（执行前会打印出来，方便你核对或自己复制到终端跑）。
 
-内置 Google 官方 adb（`platform-tools/`），开箱即用。
+内置 Google 官方 adb（`platform-tools/`），开箱即用。也可以直接下载 [Releases](https://github.com/zaixiaxingzhang/adb-quick-connect/releases/latest) 里的压缩包，解压后双击 `启动工具.bat` 即可。
 
 ```
 ================================================
@@ -189,7 +189,7 @@
 3. 系统 PATH 里的 adb
 4. Android Studio 等常见安装位置
 
-**没带 platform-tools 也能用**：菜单 **[8] → [5] 下载官方 platform-tools**，会自动从 Google 官方地址下载并解压到本工具目录，直接内置一份 adb。
+**没带 platform-tools 也能用**：启动时如果没找到 adb，会直接问你要不要自动下载；也可以随时用菜单 **[8] → [5] 下载官方 platform-tools**，从 Google 官方地址下载并解压到本工具目录，直接内置一份 adb。
 
 ---
 
